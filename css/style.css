@@ -1,0 +1,40 @@
+#apresentacao{ 
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../img/Adubo-organico.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+.container-image{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+.container-text{
+    text-align: justify;
+    width: 70%;
+
+}
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;  
+}
+a{
+    font-size: 24px;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    font-weight: bold;
+
+}
